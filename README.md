@@ -60,7 +60,7 @@ Run the following command to add your login user to the ‘vboxusers’ group:
     sudo pacman -S vagrant
     ```
 
-* Now create your project directory and copy **Vagrantfile** into the directory. To create your own **Vagrantfile** use below command:
+* Now create your project directory and copy **Vagrantfile** into the directory. Create **data** folder inside your project directory which is used to sync data inside vagrant virtual machine. To create your own **Vagrantfile** use below command:
 
     ```sh
     vagrant init
