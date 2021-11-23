@@ -21,3 +21,24 @@
 ## Setup Spring Project
 
 * Go to: https://start.spring.io/ to create demo setup Spring project using Spring intializer.
+
+* Extract project files. Open terminal in project directory and use below command to compile:
+
+  ```sh
+  mvn compile
+  ```
+  
+* When compilation is finished, you should find the compiled .class files in the target/classes directory.
+
+* To create JAR package of your Spring project use below command:
+
+  ```sh
+  mvn package
+  ```
+
+* To execute the JAR package use command:
+
+  ```sh
+  java -jar target/filename.jar
+  ```
+
