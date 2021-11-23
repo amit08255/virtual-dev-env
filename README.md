@@ -36,9 +36,7 @@ Pacman package manager should ask you which VirtualBox host module you want to i
 
 Just type "vboxdrv" as shown in the screenshot below. Then save the file by pressing Ctrl+X and then press ‘y’ and then press Enter.
 
-* Now you must add your Arch Linux login user to the ‘vboxusers’ system group. Doing so let’s a normal user use VirtualBox and all of its features. Otherwise you will see many restrictions when you run VirtualBox.
-
-Run the following command to add your login user to the ‘vboxusers’ group:
+* Now you must add your Arch Linux login user to the ‘vboxusers’ system group. Doing so let’s a normal user use VirtualBox and all of its features. Otherwise you will see many restrictions when you run VirtualBox. Run the following command to add your login user to the ‘vboxusers’ group:
 
     ```sh
     sudo usermod -aG vboxusers YOUR_USER_NAME_HERE
