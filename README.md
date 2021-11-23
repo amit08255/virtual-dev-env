@@ -94,3 +94,14 @@ Just type "vboxdrv" as shown in the screenshot below. Then save the file by pres
     vagrant destroy
     ```
 * The `destroy` command does not remove a box that may have been installed on your computer during `vagrant up`. Thus, even if you run `vagrant destroy`, the box installed in the system will still be present on the hard drive. To return your computer to the state as it was before `vagrant up` command, you need to use `vagrant box remove`.
+
+## Special Tips
+
+### Setup Java in Arch Linux
+
+* To install JDK use commands:
+
+    ```sh
+    sudo pacman -Syu
+    sudo pacman -S jre-openjdk
+    ```
