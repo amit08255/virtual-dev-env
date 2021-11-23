@@ -71,7 +71,7 @@ Run the following command to add your login user to the ‘vboxusers’ group:
     ```sh
     vagrant up --provider=virtualbox
     ```
-* Vagrant will download vagrant box **archlinux/archlinux** if it's not already available on your computer. For more vagrant box list (ceck this link)[https://app.vagrantup.com/boxes/search].
+* Vagrant will download vagrant box **archlinux/archlinux** if it's not already available on your computer. For more vagrant box list [check this link](https://app.vagrantup.com/boxes/search).
 
 * Once virtual box is running, use below command to connect using SSH:
 
