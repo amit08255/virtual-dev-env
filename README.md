@@ -103,5 +103,6 @@ Just type "vboxdrv" as shown in the screenshot below. Then save the file by pres
 
     ```sh
     sudo pacman -Syu
+    sudo pacman -S jar-openjdk
     sudo pacman -S jdk-openjdk
     ```
