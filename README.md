@@ -67,7 +67,13 @@ Just type "vboxdrv" as shown in the screenshot below. Then save the file by pres
     ```sh
     vagrant up --provider=virtualbox
     ```
-* Vagrant will download vagrant box **archlinux/archlinux** if it's not already available on your computer. For more vagrant box list [check this link](https://app.vagrantup.com/boxes/search).
+* For using with Windows8.1 and later Hyper-V provider (you must enable this feature in Windows first). Use below command in admin command prompt:
+
+    ```sh
+    vagrant up --provider=hyperv
+    ```
+
+* Vagrant will download vagrant box **archlinux/archlinux** if it's not already available on your computer. For more vagrant box list [check this link](https://app.vagrantup.com/boxes/search). Remember that archlinux box doesn't work with Windows Hyper-V. For Hyper-V boxes, [check this link](https://app.vagrantup.com/boxes/search?provider=hyperv).
 
 * Once virtual box is running, use below command to connect using SSH:
 
