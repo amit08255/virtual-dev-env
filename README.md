@@ -122,3 +122,9 @@ Just type "vboxdrv" as shown in the screenshot below. Then save the file by pres
     sudo pacman -S jar-openjdk
     sudo pacman -S jdk-openjdk
     ```
+
+### Running Angular in Vagrant with Port Forwarding
+
+```sh
+ng serve --open --host 0.0.0.0
+```
