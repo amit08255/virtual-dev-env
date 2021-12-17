@@ -128,3 +128,11 @@ Just type "vboxdrv" as shown in the screenshot below. Then save the file by pres
 ```sh
 ng serve --open --host 0.0.0.0
 ```
+
+### Excule folders in sync
+
+Update folder sync in command in Vagrantfile with below:
+
+```sh
+config.vm.synced_folder "./data", "/vagrant_data", type: "rsync", :mount_options => ["dmode=777", "fmode=666"], rsync__exclude: ['node_modules/']
+```
