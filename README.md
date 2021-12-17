@@ -73,6 +73,16 @@ Just type "vboxdrv" as shown in the screenshot below. Then save the file by pres
     vagrant up --provider=hyperv
     ```
 
+* **Fixing Error - Warning: Authentication Failure. Retrying...**
+
+    Add below config to VagrantFile just below   ```config.vm.box = "archlinux/archlinux"```
+    
+    ```sh
+    config.ssh.username = "vagrant"
+    config.ssh.password = "vagrant"
+    ```
+
+
 * Vagrant will download vagrant box **archlinux/archlinux** if it's not already available on your computer. For more vagrant box list [check this link](https://app.vagrantup.com/boxes/search). Remember that archlinux box doesn't work with Windows Hyper-V. For Hyper-V boxes, [check this link](https://app.vagrantup.com/boxes/search?provider=hyperv).
 
 * Once virtual box is running, use below command to connect using SSH:
