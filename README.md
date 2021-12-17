@@ -129,7 +129,7 @@ Just type "vboxdrv" as shown in the screenshot below. Then save the file by pres
 ng serve --open --host 0.0.0.0
 ```
 
-### Excule folders in sync
+### Exclude folders in sync
 
 Update folder sync in command in Vagrantfile with below:
 
