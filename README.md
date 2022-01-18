@@ -136,3 +136,16 @@ Update folder sync in command in Vagrantfile with below:
 ```sh
 config.vm.synced_folder "./data", "/vagrant_data", type: "rsync", :mount_options => ["dmode=777", "fmode=666"], rsync__exclude: ['node_modules/']
 ```
+
+### Remote file with Visual Studio Code
+
+Start vagrant machine and run command and copy output.
+
+```sh
+vagrant ssh-config
+```
+
+Install VS Code Remote-SSH extension and press `Ctrl + Shift + P`. Search SSH and Select - Connect to Host. Select configure host and select a ssh config file.
+In config file, paste about ssh output.
+
+Again press `Ctrl + Shift + P` and Connect to Host with name default.
